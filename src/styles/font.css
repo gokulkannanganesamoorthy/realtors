@@ -1,0 +1,19 @@
+/* Strictly 3-Font System - ULTRA COMPACT */
+
+:root {
+  /* Drastically reduced scales for a micro-minimalist look */
+  --font-size-h1: clamp(1.2rem, 3vw, 2.2rem);
+  --font-size-h2: clamp(1rem, 2.5vw, 1.8rem);
+  --font-size-h3: clamp(0.9rem, 2vw, 1.4rem);
+  --font-size-body: clamp(0.75rem, 0.9vw, 0.95rem);
+  --font-size-sub: clamp(0.65rem, 0.7vw, 0.8rem);
+  
+  --line-height-tight: 1.05;
+  --line-height-normal: 1.4;
+}
+
+.text-fluid-h1 { font-size: var(--font-size-h1); line-height: var(--line-height-tight); font-family: var(--font-heading); font-weight: 700; }
+.text-fluid-h2 { font-size: var(--font-size-h2); line-height: var(--line-height-tight); font-family: var(--font-heading); font-weight: 700; }
+.text-fluid-h3 { font-size: var(--font-size-h3); line-height: var(--line-height-tight); font-family: var(--font-subhead); font-weight: 600; }
+.text-fluid-body { font-size: var(--font-size-body); line-height: var(--line-height-normal); font-family: var(--font-para); font-weight: 400; }
+.text-fluid-sub { font-size: var(--font-size-sub); line-height: var(--line-height-normal); font-family: var(--font-para); font-weight: 500; }
