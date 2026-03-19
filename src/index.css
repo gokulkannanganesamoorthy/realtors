@@ -1,14 +1,12 @@
-@import "tailwindcss";
-
-@config "../../tailwind.config.js";
+@import 'tailwindcss';
 
 @theme {
   --color-brand-primary: #000000;
   --color-brand-secondary: #dccdbb;
 
-  --font-heading: "Outfit", sans-serif;
-  --font-subhead: "Outfit", sans-serif;
-  --font-para: "Inter", sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+  --font-subhead: 'Outfit', sans-serif;
+  --font-para: 'Inter', sans-serif;
 
   /* Custom Glass & Shadow Effects for "Luxury Smoothness" */
   --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.03);
@@ -30,7 +28,9 @@
 
   /* Hide custom cursor on mobile */
   @media (max-width: 1024px) {
-    body { cursor: auto; }
+    body {
+      cursor: auto;
+    }
   }
 }
 
@@ -42,7 +42,7 @@
   .nav-blur {
     @apply backdrop-blur-md bg-brand-secondary/80;
   }
-  
+
   .card-premium {
     @apply bg-white border border-brand-primary/5 transition-all duration-700;
     box-shadow: var(--shadow-soft);
