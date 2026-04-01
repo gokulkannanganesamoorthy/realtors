@@ -23,7 +23,6 @@
     color: var(--color-brand-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    cursor: none; /* Hidden for custom cursor on desktop */
   }
 
   /* Hide custom cursor on mobile */

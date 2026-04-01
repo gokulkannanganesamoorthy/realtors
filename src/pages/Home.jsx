@@ -17,7 +17,7 @@ const slideUp = {
 export default function Home() {
   return (
     <>
-      <SEO title="Premium Developers | Coimbatore's Most Reliable Home Builders" />
+      <SEO title="Sky High Developers | Coimbatore's Most Reliable Home Builders" />
       <main className="bg-brand-secondary overflow-x-hidden">
         <Hero />
 

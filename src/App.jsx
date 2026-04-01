@@ -1,19 +1,17 @@
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/layout/Navbar'
-import Footer from './components/layout/Footer'
-import SmoothScroll from './components/layout/SmoothScroll'
-import Home from './pages/Home'
-import About from './pages/About'
-import Services from './pages/Services'
-import Contact from './pages/Contact'
-import Properties from './pages/Properties'
-import ScrollToTop from './components/shared/ScrollToTop'
-import CustomCursor from './components/shared/CustomCursor'
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import SmoothScroll from './components/layout/SmoothScroll';
+import Home from './pages/Home';
+import About from './pages/About';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
+import Properties from './pages/Properties';
+import ScrollToTop from './components/shared/ScrollToTop';
 
 function App() {
   return (
     <SmoothScroll>
-      <CustomCursor />
       <ScrollToTop />
       <div className="relative min-h-screen bg-brand-secondary flex flex-col">
         <Navbar />
@@ -29,7 +27,7 @@ function App() {
         <Footer />
       </div>
     </SmoothScroll>
-  )
+  );
 }
 
-export default App
+export default App;

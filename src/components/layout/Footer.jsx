@@ -12,7 +12,8 @@ export default function Footer() {
           <div className="space-y-8">
             <Link to="/" className="flex flex-col group">
               <span className="text-xl font-heading font-bold tracking-tighter uppercase leading-none">
-                PD. <span className="opacity-40 font-normal">Developers</span>
+                Sky High{' '}
+                <span className="opacity-40 font-normal">Developers</span>
               </span>
               <span className="text-[7px] uppercase tracking-[0.4em] font-bold text-brand-primary/40 font-para mt-1">
                 Coimbatore Heritage
@@ -97,7 +98,7 @@ export default function Footer() {
 
         <div className="pt-10 border-t border-brand-primary/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-[8px] uppercase tracking-[0.5em] font-bold text-brand-primary/30 font-para">
-            © 2026 PD. Developers. Pure Reliability.
+            © 2026 Sky High Developers. Pure Reliability.
           </p>
           <button
             onClick={scrollToTop}

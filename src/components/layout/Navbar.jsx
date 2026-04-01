@@ -44,7 +44,7 @@ export default function Navbar() {
                 : 'text-brand-primary'
             }`}
           >
-            PD. <span className="opacity-40 font-normal">Developers</span>
+            Sky High <span className="opacity-40 font-normal">Developers</span>
           </span>
           <div
             className={`h-[1px] w-0 bg-brand-secondary group-hover:w-full transition-all duration-500 mb-0.5 ${
